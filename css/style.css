@@ -1,0 +1,73 @@
+#main-header img{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black{
+    color: #fff;
+    background: #000;
+}
+
+#main-header .port-item{
+    width: 30%;
+}
+
+#main-header .port-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* .fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+} */
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+}
+
+#authors img{
+    margin-top: -50px;
+}
+
+#authors .card:hover{
+    background: rgb(17, 201, 247);
+    color: #fff;
+}
+#authors .fab{
+    color: #fff;
+}
+
+#resume .card-resume:hover{
+    background: rgb(124, 218, 166);
+    color: #fff;
+}
+
+#work .card-work:hover{
+    background: rgb(224, 210, 85);
+    color: #fff;
+}
+
+/* scrolling full */
+
+
+/* .scrolling{
+    transform: translateX(100%);
+    animation: scrolling 15s linear infinite;
+}
+@keyframes scrolling {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+} */
+
+@media(min-width: 1199px){
+    .port-item{
+        padding:  3em !important;
+    }
+}
